@@ -111,13 +111,13 @@ const FileUpload = () => {
                                 ))}
                             </ul>
                         </Card>
-                        <Card title="Additional Information 📝">
+                        {/* <Card title="Additional Information 📝">
                             <ul className="p-1">
                                 {AnalyticData?.additionalNotes?.map((text:string,index:number)=>(
                                     <li key={index} className="text-justify font-light">- {text}</li>
                                 ))}
                             </ul>
-                        </Card>
+                        </Card> */}
                     </div>                
                 </div>
             </>
